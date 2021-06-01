@@ -1,6 +1,6 @@
 {
   "name": "maps-eager",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Eagerly evaluated functions for Maps.",
   "license": "MIT",
   "author": "Joel Lefkowitz",
