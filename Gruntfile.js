@@ -44,12 +44,12 @@ const formatters = {
 };
 
 const pulp = {
-  test: "pulp test",
+  test: "npx pulp test",
 };
 
 const spago = {
-  bundle: "spago bundle-app --to dist/main.js",
-  module: "spago bundle-module --to dist/main.js",
+  bundle: "npx spago bundle-app --to dist/main.js",
+  module: "npx spago bundle-module --to dist/main.js",
 };
 
 const exec = merge(linters, formatters, pulp, spago);
