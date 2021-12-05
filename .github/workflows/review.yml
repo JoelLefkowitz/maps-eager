@@ -38,6 +38,7 @@ jobs:
           yarn add global grunt-cli
           yarn add global purescript
           yarn add global pulp
+          yarn add global bower
           bower install
 
       - name: Run linters
