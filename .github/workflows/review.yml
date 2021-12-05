@@ -35,10 +35,10 @@ jobs:
       - name: Install dependencies
         run: |
           yarn install --frozen-lockfile
-          yarn add global grunt-cli
-          yarn add global purescript
-          yarn add global pulp
-          yarn add global bower
+          yarn global add grunt-cli
+          yarn global add purescript
+          yarn global add pulp
+          yarn global add bower
           bower install
 
       - name: Run linters
