@@ -1,7 +1,7 @@
-PureScript maps eager
+PureScript Maps Eager
 ============
 
-Welcome to PureScript maps eager's documentation!
+Welcome to PureScript Maps Eager's documentation!
 
 .. raw:: html
    :file: README.html
@@ -14,10 +14,12 @@ Content
 .. toctree::
    :maxdepth: 1
    
+   api/modules
 
 |
 
 Indices and tables
 ------------------
 * :ref:`genindex`
+* :ref:`modindex`
 * :ref:`search`
