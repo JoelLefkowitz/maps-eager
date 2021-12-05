@@ -1,47 +1,30 @@
-output_dir: .
+collections:
+  - common
+  - purescript
+
+excludes:
+  - .cspell.json
+  - README.md
+  - bower.json
+  - package.json
+  - spago.dhall
+
+render_context:
+  project:
+    name: purescript-maps-eager
+    description: Eagerly evaluated functions for Maps.
+    version: 0.2.0
+    verbose_name: PureScript Maps Eager
+    repository: https://github.com/JoelLefkowitz/purescript-maps-eager
+    codacy_id: a2905892096944d49fde47dbfcb2d503
+
+  author:
+    author: joellefkowitz
+    author_email: joellefkowitz@hotmail.com
+    verbose_author: Joel Lefkowitz
 
 clear_top_level: true
 logical_grouping: true
 
-collections:
-    - common
-    - purescript
-
 loader_paths:
-    - docs
-
-protected:
-    - spago.dhall
-
-render_context:
-    project:
-        project_name: purescript-maps-eager
-        version: 0.2.0
-
-        verbose_name: PureScript maps eager
-        description: Eagerly evaluated functions for Maps.
-
-        repository: https://github.com/JoelLefkowitz/purescript-maps-eager
-        codacy_id: a2905892096944d49fde47dbfcb2d503
-
-        inserts:
-            - usage.md
-
-    author:
-        author: Joel Lefkowitz
-        author_email: joellefkowitz@hotmail.com
-        author_github_handle: joellefkowitz
-
-    package:
-        is_pursuit_package: true
-        package_name: maps-eager
-
-    portfolio:
-        is_portfolio: true
-        status_level: 3
-
-        languages:
-            - PureScript
-
-        paradigms:
-            - Functional programming
+  - docs

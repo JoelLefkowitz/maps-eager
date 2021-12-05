@@ -1,0 +1,30 @@
+{
+  "name": "purescript-maps-eager",
+  "version": "0.2.0",
+  "description": "Eagerly evaluated functions for Maps.",
+  "homepage": "https://github.com/JoelLefkowitz/purescript-maps-eager",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoelLefkowitz/purescript-maps-eager"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "test",
+    "bower.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-maybe": "^5.0.0",
+    "purescript-ordered-collections": "^2.0.2",
+    "purescript-prelude": "^5.0.1"
+  },
+  "devDependencies": {
+    "purescript-assert": "^5.0.0",
+    "purescript-debug": "^5.0.0",
+    "purescript-psci-support": "^5.0.0"
+  }
+}
