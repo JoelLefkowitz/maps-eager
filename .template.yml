@@ -13,7 +13,7 @@ render_context:
   project:
     name: purescript-maps-eager
     description: Eagerly evaluated functions for Maps.
-    version: 0.3.0
+    version: 0.3.1
     verbose_name: PureScript Maps Eager
     repository: https://github.com/JoelLefkowitz/purescript-maps-eager
     codacy_id: a2905892096944d49fde47dbfcb2d503
