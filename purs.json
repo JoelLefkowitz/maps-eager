@@ -8,7 +8,7 @@
     "githubRepo": "maps-eager"
   },
   "dependencies": {
-    "maybe": "^5.0.0",
-    "ordered-collections": "^2.0.2"
+    "maybe": ">=5.0.0 <6.0.0",
+    "ordered-collections": ">=2.0.2 <3.0.0"
   }
 }
