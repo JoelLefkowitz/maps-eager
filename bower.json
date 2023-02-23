@@ -11,11 +11,15 @@
   "ignore": [
     "**/.*",
     "bower_components",
+    "bower.json",
+    "generated-docs",
     "node_modules",
     "output",
+    "package-lock.json",
+    "package.json",
     "test",
-    "bower.json",
-    "package.json"
+    "yarn-error.log",
+    "yarn.lock"
   ],
   "dependencies": {
     "purescript-maybe": "^5.0.0",

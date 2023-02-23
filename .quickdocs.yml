@@ -1,7 +1,0 @@
-project: purescript-maps-eager
-version: 0.3.1
-author: Joel Lefkowitz
-verbose_name: PureScript Maps Eager
-html_title: PureScript Maps Eager
-github_url: https://github.com/JoelLefkowitz/purescript-maps-eager
-apidoc_module_dir: src
