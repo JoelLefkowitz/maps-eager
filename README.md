@@ -17,6 +17,35 @@ Eagerly evaluated functions for Maps.
 bower install purescript-maps-eager
 ```
 
+## Usage
+
+Given a `Map`:
+
+```purs
+map :: Map String Int
+map = fromFoldable [ Tuple "a" 1 , Tuple "b" 2 , Tuple "c" 3]
+```
+
+Often we want to iterate over the keys and values. This package provides functions that return the keys and values in an `Array`.
+
+```purs
+> keys map
+[ "a", "b", "c" ]
+
+> values map
+[ 1, 2, 3 ]
+```
+
+Also given a value you can search for matching keys:
+
+```purs
+reverseLookup 3
+> Just "c"
+
+reverseLookupAll 3
+> ["c"]
+```
+
 ## Tests
 
 To run tests:
