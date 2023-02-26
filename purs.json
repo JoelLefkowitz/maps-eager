@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "maybe": ">=5.0.0 <6.0.0",
-    "ordered-collections": ">=2.0.2 <3.0.0"
+    "ordered-collections": ">=2.0.2 <3.0.0",
+    "prelude": ">=5.0.1 <6.0.0"
   }
 }
