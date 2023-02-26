@@ -1,7 +1,7 @@
 {
   "name": "maps-eager",
   "description": "Eagerly evaluated functions for Maps.",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "homepage": "https://github.com/JoelLefkowitz/maps-eager",
   "license": "MIT",
   "repository": {
