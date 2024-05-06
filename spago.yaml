@@ -1,6 +1,15 @@
 package:
   name: maps-eager
   description: Eagerly evaluated functions for Maps.
+  repository: https://github.com/JoelLefkowitz/maps-eager
+  homepage: https://joellefkowitz.github.io/maps-eager
+  keywords:
+    - maps
+    - eager
+    - lookup
+    - values
+    - reverse
+
   publish:
     version: 0.4.5
     license: MIT
@@ -24,6 +33,17 @@ package:
     extra_args:
       - --minify
       - --outfile=dist/bundle.js
+
+metadata:
+  publisher: Pursuit
+  languages:
+    - PureScript
+
+  frameworks: []
+  paradigms:
+    - Functional
+
+  lifecycle: Alpha
 
 workspace:
   package_set:
