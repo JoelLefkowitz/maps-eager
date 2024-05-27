@@ -1,4 +1,4 @@
-# Maps Eager
+# Maps eager
 
 Eagerly evaluated functions for Maps.
 
@@ -6,7 +6,7 @@ Eagerly evaluated functions for Maps.
 ![Version](https://pursuit.purescript.org/packages/purescript-maps-eager/badge)
 ![Quality](https://img.shields.io/codacy/grade/a2905892096944d49fde47dbfcb2d503)
 
-## Installation
+## Installing
 
 ```bash
 spago install maps-eager
