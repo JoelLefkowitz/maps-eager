@@ -18,21 +18,22 @@ package:
       githubRepo: maps-eager
 
   dependencies:
+    - arrays: ">=6.0.0 <7.0.0"
+    - lists: ">=6.0.0 <7.0.0"
     - maybe: ">=5.0.0 <6.0.0"
     - ordered-collections: ">=2.0.2 <3.0.0"
     - prelude: ">=5.0.1 <6.0.0"
 
+  build:
+    pedanticPackages: true
+    strict: true
+
   test:
-    main: Test.Main
+    main: Test.Data.Map.Eager
     dependencies:
       - assert
       - debug
       - effect
-
-  bundle:
-    extra_args:
-      - --minify
-      - --outfile=dist/bundle.js
 
 metadata:
   publisher: Pursuit
@@ -46,5 +47,5 @@ metadata:
   lifecycle: Alpha
 
 workspace:
-  package_set:
+  packageSet:
     registry: 41.2.0
